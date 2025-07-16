@@ -40,8 +40,30 @@ h2 {
   background-color: #dbdcde;
 }
 
+#portfolio .card-title {
+  color: #1f7798;
+  font-size: 1.2rem;
+}
+
+#portfolio .card-text {
+  min-height: 120px;
+}
+
 /* Contact section */
 
 #contact {
   background-color: white;
+}
+
+#portfolio .btn-outline-secondary:hover {
+  background-color: #1f7798;
+}
+
+/* Media query */
+
+/* Use Bootstrap breakpoint for XL screens 1200px and more*/
+@media (min-width: 1200px) {
+  #portfolio .card-text {
+    min-height: auto;
+  }
 }
